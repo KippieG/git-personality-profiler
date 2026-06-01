@@ -1,84 +1,71 @@
-# 🧠 Git Personality Profiler v2.0
+# 🧬 Git Personality Profiler v3.0
 
 > "Show me your commit history, and I'll tell you who you are."
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version: 3.0.0](https://img.shields.io/badge/version-3.0.0-magenta.svg)](https://github.com/KippieG/git-personality-profiler)
 
-The **Git Personality Profiler** is a sophisticated CLI tool designed to decode the human behavior behind the code. By analyzing commit timestamps, message semantics, and code impact, it generates a unique "Developer DNA" profile and assigns one of our 6 core archetypes.
+The **Git Personality Profiler v3.0** is the ultimate tool for self-discovery in the developer world. By performing a **Deep Scan** of your Git metadata, it uncovers hidden patterns in your workflow, tech stack, and even your mood.
 
 ---
 
-## 📸 Preview
+## 📸 Preview (v3.0 Deep Scan)
 
 ```text
-┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-┃             🧠 GIT PERSONALITY PROFILER 2.0            ┃
-┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+╔════════════════════════════════════════════════════════════╗
+║                 🧬 GIT PERSONALITY PROFILER v3.0           ║
+╚════════════════════════════════════════════════════════════╝
+      GC      
+     G──C     
+    A────T    
+     T──A     
+      CG      
+     T──A     
+    G────C    
+     A──T     
 
-📊 STATISTIEKEN
-  Commits: 42
-  Impact:  +12,450 / -3,120 regels
-  Favoriete dag: Saturday (15 commits)
+🚀 TECH STACK (Top Languages)
+  • Python 🐍       (12 files changed)
+  • JavaScript 🟨   (8 files changed)
+  • Markdown 📝     (3 files changed)
 
-🧬 DNA PROFIEL
-Nachtuil 🧛      [██████████░░░░░░░░░░]  50.0%
-Vroege Vogel 🐦  [░░░░░░░░░░░░░░░░░░░░]   2.0%
-Weekend Warrior ⚔️ [██████████████░░░░░░]  70.0%
-Perfectionist ✨ [██████░░░░░░░░░░░░░░]  30.0%
-Chaos Aap 🐒     [█░░░░░░░░░░░░░░░░░░░]   5.0%
+📊 DEEP SCAN STATS
+  Commits: 142                       Impact: +15,240 / -4,120
+  Streak:  12 dagen                  Fav Day: Wednesday
 
-🏆 UW ARCHETYPE:
+🧬 DEVELOPER DNA
+  Night Owl 🧛       [████████████░░░░░░░░░░░]  48.0%
+  Early Bird 🐦      [█░░░░░░░░░░░░░░░░░░░░░░]   4.0%
+  Weekend Warrior ⚔️  [███████████████░░░░░░░░]  65.0%
+  Clean Coder ✨      [████████░░░░░░░░░░░░░░░]  32.0%
+  Chaos Factor 🐒     [██░░░░░░░░░░░░░░░░░░░░░]   8.0%
+
+🏆 YOUR ARCHETYPE:
   The Midnight Shadow 🧛
-  "Leeft op cafeïne en codeert als de rest van de wereld slaapt."
+  "Fueled by caffeine and dark mode."
+
+💡 PERSONAL ADVICE:
+  Try seeing the sun once in a while. Vitamin D is important!
 ```
 
 ---
 
-## ✨ Features
+## 🔥 New in v3.0 (The Deep Scan Update)
 
-- **🕒 Temporal Analysis**: Deep-dive into your peak productivity hours.
-- **🧬 DNA Profiling**: Real-time bars reflecting your coding habits (Refactoring vs. Chaos).
-- **💥 Impact Metrics**: Track your net contribution (Insertions vs. Deletions).
-- **🎭 Archetype Engine**: Automatically classifies you into profiles like *The Architect*, *The Tank*, or *The Chaos Engineer*.
-- **💢 Sentiment Heuristics**: Detects frustration levels in commit messages.
+- **🌍 Tech Stack Detection**: Automatically identifies your top 3 programming languages based on commit history.
+- **🧬 DNA Helix Visual**: A beautiful ASCII representation of your coding biological signature.
+- **🔥 Commit Streaks**: Tracks how many consecutive days you've been "in the zone".
+- **💡 AI-Powered Advice**: Get constructive (and sometimes funny) advice based on your developer archetype.
+- **📊 Enhanced UI**: A cleaner, wider dashboard with dual-column stats.
 
-## 🚀 Installation
+## 🚀 Installation & Usage
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/KippieG/git-personality-profiler.git
-   cd git-personality-profiler
-   ```
-
-2. **No dependencies required!** Just pure Python 3.
-
-## 🛠 Usage
-
-Analyze the current directory:
 ```bash
+git clone https://github.com/KippieG/git-personality-profiler.git
+cd git-personality-profiler
 python3 profiler.py
 ```
 
-Analyze a specific project:
-```bash
-python3 profiler.py /path/to/awesome-project
-```
-
-## 🎭 The Archetypes
-
-| Archetype | Description |
-| :--- | :--- |
-| **The Midnight Shadow 🧛** | High activity between 00:00 - 05:00. Powered by coffee. |
-| **The Architect ✨** | High refactor-to-feature ratio. Loves clean code. |
-| **The Tank 🧱** | Rare but massive commits. High impact per push. |
-| **The Chaos Engineer 🐒** | Short messages (wip, fix, .). Speed over documentation. |
-| **The Grumpy Dev 💢** | Sentiment analysis detected high frustration levels. |
-| **The Passionate Coder ⚔️** | High weekend activity. Coding is a lifestyle. |
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ---
-*Developed for developers who want to know themselves better.*
+*Developed for developers who want to know themselves better. MIT Licensed.*
