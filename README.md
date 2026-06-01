@@ -1,65 +1,61 @@
-# 🧬 Git Personality Profiler v3.0
+# 🧬 Git Personality Profiler v5.0 (Viral Edition)
 
-> "Show me your commit history, and I'll tell you who you are."
+> **"Your code is your legacy. Your commits are your DNA."**
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version: 3.0.0](https://img.shields.io/badge/version-3.0.0-magenta.svg)](https://github.com/KippieG/git-personality-profiler)
+[![Version: 5.0.0](https://img.shields.io/badge/version-5.0.0-blueviolet.svg?style=for-the-badge)](https://github.com/KippieG/git-personality-profiler)
+[![S-Tier Dev](https://img.shields.io/badge/Rank-S--Tier-orange.svg?style=for-the-badge)](https://github.com/KippieG/git-personality-profiler)
 
-The **Git Personality Profiler v3.0** is the ultimate tool for self-discovery in the developer world. By performing a **Deep Scan** of your Git metadata, it uncovers hidden patterns in your workflow, tech stack, and even your mood.
+**Git Personality Profiler v5.0** is a cyberpunk-themed CLI audit tool that deep-scans your Git repositories to uncover your true developer identity. It goes beyond simple statistics, analyzing your velocity, vocabulary, and coding patterns to assign a global **Developer Rank**.
 
 ---
 
-## 📸 Preview (v3.0 Deep Scan)
+## ⚡️ The v5.0 Experience
 
 ```text
-╔════════════════════════════════════════════════════════════╗
-║                 🧬 GIT PERSONALITY PROFILER v3.0           ║
-╚════════════════════════════════════════════════════════════╝
-      GC      
-     G──C     
-    A────T    
-     T──A     
-      CG      
-     T──A     
-    G────C    
-     A──T     
+    ____  ____  ____  _____ __    ______ 
+   / __ \/ __ \/ __ \/ ___// /   / ____/ 
+  / /_/ / /_/ / / / /\__ \/ /   / __/    
+ / ____/ _, _/ /_/ /___/ / /___/ /___    
+/_/   /_/ |_|\____//____/_____/_____/ v5.0
 
-🚀 TECH STACK (Top Languages)
-  • Python 🐍       (12 files changed)
-  • JavaScript 🟨   (8 files changed)
-  • Markdown 📝     (3 files changed)
+TARGET: /Users/kippieg/projects/top-secret
+STATUS: ANALYSIS COMPLETE. DNA SEQUENCED.
 
-📊 DEEP SCAN STATS
-  Commits: 142                       Impact: +15,240 / -4,120
-  Streak:  12 dagen                  Fav Day: Wednesday
+      _.-'''''-._       RANK: [ S-TIER ]
+    .'  _     _  '.     COMMITS: 1,240
+   /   (o)   (o)   \    IMPACT:  +45,000 / -12,000
+  |                 |   VELOCITY: 12.5 commits/week
+  |  \           /  |   STREAK:   15 days in the zone
+   \  '.       .'  /   
+    '.  '-----'  .'    
+      '-._____.-'      
 
-🧬 DEVELOPER DNA
-  Night Owl 🧛       [████████████░░░░░░░░░░░]  48.0%
-  Early Bird 🐦      [█░░░░░░░░░░░░░░░░░░░░░░]   4.0%
-  Weekend Warrior ⚔️  [███████████████░░░░░░░░]  65.0%
-  Clean Coder ✨      [████████░░░░░░░░░░░░░░░]  32.0%
-  Chaos Factor 🐒     [██░░░░░░░░░░░░░░░░░░░░░]   8.0%
+🧬 DEVELOPER DNA 
+  NIGHT OWL       █████████████████░░░░░░░░░░░░░ 65.0%
+  WEEKEND         ██████████░░░░░░░░░░░░░░░░░░░░ 30.0%
+  CLEAN CODE      ██████████████████████░░░░░░░░ 75.0%
+  CHAOS           █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  5.0%
 
-🏆 YOUR ARCHETYPE:
-  The Midnight Shadow 🧛
-  "Fueled by caffeine and dark mode."
+🗣️ VOCABULARY CLOUD (TOP SLANG)
+  refactor(42) • fix(38) • polish(12) • optimize(8) • feature(5)
 
-💡 PERSONAL ADVICE:
-  Try seeing the sun once in a while. Vitamin D is important!
+🔗 SHARE YOUR DNA:
+  I'm a S-TIER Developer! DNA: 65% Night, 75% Clean. Analyze your Git DNA with #GitProfiler v5.0!
 ```
 
 ---
 
-## 🔥 New in v3.0 (The Deep Scan Update)
+## 🚀 Key Features
 
-- **🌍 Tech Stack Detection**: Automatically identifies your top 3 programming languages based on commit history.
-- **🧬 DNA Helix Visual**: A beautiful ASCII representation of your coding biological signature.
-- **🔥 Commit Streaks**: Tracks how many consecutive days you've been "in the zone".
-- **💡 AI-Powered Advice**: Get constructive (and sometimes funny) advice based on your developer archetype.
-- **📊 Enhanced UI**: A cleaner, wider dashboard with dual-column stats.
+- **🏆 Developer Ranking**: Are you a C-Class Coder or an S-Tier Architect?
+- **📉 Velocity Tracking**: Real-time analysis of your output consistency.
+- **🗣️ Vocabulary Cloud**: Deep-scans commit subjects AND bodies to find your core keywords.
+- **🔥 Streak Detection**: Automatically calculates your longest "in-the-zone" period.
+- **🎨 Cyberpunk UI**: A neon-infused terminal experience with biohazard ASCII.
 
-## 🚀 Installation & Usage
+## 🛠 Installation
+
+No dependencies. No bloat. Just pure engineering.
 
 ```bash
 git clone https://github.com/KippieG/git-personality-profiler.git
@@ -67,5 +63,12 @@ cd git-personality-profiler
 python3 profiler.py
 ```
 
+## 📈 Commercial / Professional Use
+
+This tool is designed for:
+1. **Self-Audit**: Identify where you can improve your coding habits.
+2. **Team Fun**: Compare ranks and archetypes within your squad.
+3. **Portfolio**: Show off your S-Tier rank to potential clients or employers.
+
 ---
-*Developed for developers who want to know themselves better. MIT Licensed.*
+*Created by KippieG. For those who live in the terminal.*
